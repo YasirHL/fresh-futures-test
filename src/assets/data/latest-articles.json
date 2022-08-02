@@ -1,0 +1,23 @@
+[
+    {
+        "title": "why the freelance life may get easier",
+        "description": "Written by Monash Univerity",
+        "profile": "../assets/avatar/computer.jpg",
+        "icon":"../assets/avatar/icon.png",
+        "date":"8 Aug 2022"
+    },
+    {
+        "title": "How Much Do Internee Students Bring To ...",
+        "description": "The University of Meiboume",
+        "profile": "../assets/avatar/computer.jpg",
+        "icon":"../assets/avatar/icon.png",
+        "date":"8 Aug 2022"
+    },
+    {
+        "title": "Bachelor of Fine Arts",
+        "description": "The University of Meiboume",
+        "profile": "../assets/avatar/computer.jpg",
+        "icon":"../assets/avatar/icon.png",
+        "date":"8 Aug 2022"
+    }
+]

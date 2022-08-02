@@ -1,0 +1,35 @@
+<ion-card class='ion-no-margin ion-no-padding'>
+
+  <ion-slides [options]="slideOpts">
+    <ion-slide *ngFor="let article of latestArticles">
+
+      <ion-card>
+        <img class="responsive" src="{{article.profile}}" />
+        <ion-card-header>
+          <ion-text color="dark" class="ion-text-left">
+            <h6 class="ion-text-capitalize">{{article.title}}</h6>
+          </ion-text>
+        </ion-card-header>
+        <ion-card-content class="ion-text-left ion-text-capitalize">
+          {{article.description}}
+        </ion-card-content>
+        
+        <ion-grid>
+          <ion-row class='ion-no-margin ion-no-padding'>
+            <ion-col>
+              <ion-thumbnail>
+                <img src="{{article.icon}}">
+              </ion-thumbnail>
+            </ion-col>
+            <ion-col class="ion-align-self-end">
+              <span class="ion-float-right">{{article.date}}</span>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+      </ion-card>
+
+    </ion-slide>
+  </ion-slides>
+
+</ion-card>

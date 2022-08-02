@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Bachelor of Computer Science (Hons)",
+        "description": "The University of Meiboume",
+        "profile": "../assets/avatar/course.png"
+    },
+    {
+        "title": "Bachelor of Business Administration",
+        "description": "The University of Meiboume",
+        "profile": "../assets/avatar/course.png"
+    },
+    {
+        "title": "Bachelor of Fine Arts",
+        "description": "The University of Meiboume",
+        "profile": "../assets/avatar/course.png"
+    }
+]

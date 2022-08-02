@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="1" class="ion-align-self-center">
+        <a color="success" href="#">
+          <ion-icon name="chevron-back-outline" size="large" color="primary"></ion-icon>
+        </a>
+      </ion-col>
+      <ion-col>
+        <ion-searchbar></ion-searchbar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-header>
+
+<ion-content [fullscreen]="false">
+
+  <ion-item-divider>
+    <ion-slides [options]="slideOpts" >
+      <ion-slide class="ion-margin-start ion-padding-start">
+        <ion-button color="light" size="default" class="ion-margin-start ion-text-capitalize"
+          *ngFor="let searchButton of searhButtons">{{searchButton.name}}</ion-button>
+      </ion-slide>
+    </ion-slides>
+  </ion-item-divider>
+
+  <app-recent-searches></app-recent-searches>
+  <app-people-you-may-know></app-people-you-may-know>
+  <app-top-ten-courses></app-top-ten-courses>
+  <app-latest-articles></app-latest-articles>
+
+  <ion-header collapse="condense">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="1" class="ion-align-self-center">
+          <ion-icon name="chevron-back-outline" size="large" color="primary"></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-searchbar></ion-searchbar>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-header>
+</ion-content>

@@ -1,0 +1,20 @@
+<ion-card class='ion-no-margin'>
+
+  <ion-list>
+    <ion-list-header>
+      Top 10 courses
+    </ion-list-header>
+
+    <ion-item *ngFor="let course of courses">
+      <ion-avatar slot="start">
+        <img src="{{course.profile}}" />
+      </ion-avatar>
+      <ion-label>
+        <h3>{{course.title}}</h3>
+        <p>{{course.description}}</p>
+      </ion-label>
+    </ion-item>
+    
+  </ion-list>
+
+</ion-card>

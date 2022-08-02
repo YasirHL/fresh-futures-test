@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Rick Novak",
+        "description": "French School of Kaula Lumpur",
+        "profile": "../assets/avatar/rick.jpg",
+        "mutualfriends": "8 mutual friends"
+    },
+    {
+        "title": "Honda Takumi",
+        "description": "French School of Kaula Lumpur",
+        "profile": "../assets/avatar/honda.jpg",
+        "mutualfriends": ""
+    }
+]

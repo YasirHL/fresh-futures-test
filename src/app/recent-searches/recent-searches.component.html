@@ -1,0 +1,37 @@
+<ion-card class='ion-no-margin'>
+
+  <ion-list>
+    <ion-list-header>
+
+      <ion-grid class="ion-no-margin ion-no-padding">
+        <ion-row>
+          <ion-col>
+            Recent searches
+          </ion-col>
+          <ion-col class="ion-margin-end">
+            <a color="success" class="button button-success ion-float-right" href="#">
+              Clear
+            </a>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </ion-list-header>
+
+    <a href="#">
+      <ion-item *ngFor="let recentSearch of recentSearches">
+        <ion-avatar slot="start" *ngIf="recentSearch.profile; else iconBlock">
+          <img src="{{recentSearch.profile}}" />
+        </ion-avatar>
+        <ng-template #iconBlock>
+          <ion-icon name="search" size="small" class="ion-margin-end"></ion-icon>
+        </ng-template>
+        <ion-label>
+          <h3>{{recentSearch.title}}</h3>
+          <p>{{recentSearch.description}}</p>
+        </ion-label>
+      </ion-item>
+    </a>
+  </ion-list>
+
+</ion-card>
