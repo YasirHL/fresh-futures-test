@@ -28,11 +28,7 @@ export class HomePage implements OnInit{
 
   getSearchButtons()
   {
-    this.backendService.getSearchButtons().subscribe((res: any) => 
-    {
-      console.log('buttons: ', res);
-      this.searhButtons = res;
-  });
+    this.backendService.getSearchButtons().subscribe((res: any) => this.searhButtons = res);
   }
 
 }

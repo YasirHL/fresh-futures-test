@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BackendService} from '../backend-service';
+import { BackendService } from '../backend-service';
 
 @Component({
   selector: 'app-recent-searches',
@@ -16,9 +16,7 @@ export class RecentSearchesComponent implements OnInit {
     this.getRecentSearches();
   }
 
-
-  getRecentSearches()
-  {
+  getRecentSearches() {
     this.backendService.getRecentSearches().subscribe((res) => this.recentSearches = res);
   }
 
