@@ -1,3 +1,12 @@
 ion-button {
   --border-radius: 0px;
   }
+
+.header-md::after {
+  background-image: none;
+  }
+
+  ion-slides {
+    width: 100%;
+
+  }
