@@ -13,7 +13,7 @@
       </ion-row>
       <ion-slides [options]="slideOpts">
         <ion-slide>
-          <ion-button color="light" size="default" class="ion-margin-start ion-text-capitalize"
+          <ion-button fill="outline" color="medium" size="small" class="ion-margin-start ion-text-capitalize"
             *ngFor="let searchButton of searhButtons">{{searchButton.name}}</ion-button>
         </ion-slide>
       </ion-slides>
@@ -21,7 +21,7 @@
   </ion-card>
 </ion-header>
 
-<ion-content [fullscreen]="false">
+<ion-content>
 
   <app-recent-searches></app-recent-searches>
   <app-people-you-may-know></app-people-you-may-know>

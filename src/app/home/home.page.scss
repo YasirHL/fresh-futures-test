@@ -6,7 +6,14 @@ ion-button {
   background-image: none;
   }
 
-  ion-slides {
-    width: 100%;
 
+
+  ion-header.md.header-md.header-translucent.header-collapse-none.header-translucent-md.hydrated
+  {
+    background-color: #f4f5f8;
+  }
+
+  ion-content
+  {
+    --background: #f4f5f8;
   }
